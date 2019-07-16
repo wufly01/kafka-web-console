@@ -1,6 +1,4 @@
-# --- !Ups
-
-ALTER TABLE zookeepers ADD COLUMN chroot VARCHAR;
+ALTER TABLE zookeepers ADD COLUMN chroot VARCHAR(50);
 
 # --- !Downs
 
